@@ -8,4 +8,5 @@ target 'CocoapodsModuleDemo' do
 
   # Pods for CocoapodsModuleDemo
   pod 'TKCPSpeaker', :path => '../TKCPSpeaker/'
+  pod 'TKCPBasket', :path => '../TKCPBasket/'
 end

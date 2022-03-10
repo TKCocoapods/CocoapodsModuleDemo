@@ -1,9 +1,11 @@
 PODS:
+  - TKCPBasket (0.1.0)
   - TKCPHuman (0.1.0)
   - TKCPSpeaker (0.1.0):
     - TKCPHuman
 
 DEPENDENCIES:
+  - TKCPBasket (from `../TKCPBasket/`)
   - TKCPSpeaker (from `../TKCPSpeaker/`)
 
 SPEC REPOS:
@@ -11,13 +13,16 @@ SPEC REPOS:
     - TKCPHuman
 
 EXTERNAL SOURCES:
+  TKCPBasket:
+    :path: "../TKCPBasket/"
   TKCPSpeaker:
     :path: "../TKCPSpeaker/"
 
 SPEC CHECKSUMS:
+  TKCPBasket: d9eb5d8fdc06f81b7415b409d576b26a3224e4bb
   TKCPHuman: e297510851a5dc4bdd79140662abdf292022e88a
   TKCPSpeaker: 9d75e2dff982d280bb1a3b95e1213db459912386
 
-PODFILE CHECKSUM: 69866a2b9c740edd2215515c2dc9da806b193b19
+PODFILE CHECKSUM: 57679700c21fb8c9504ebaf45047b78e27836c7a
 
 COCOAPODS: 1.11.2

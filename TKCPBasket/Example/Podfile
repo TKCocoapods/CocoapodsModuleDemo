@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TKCPBasket_Tests' do
+  pod 'TKCPBasket', :path => '../'
+  
+  
+end

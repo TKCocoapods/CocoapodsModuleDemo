@@ -7,6 +7,7 @@
 
 import SwiftUI
 import TKCPSpeaker
+import TKCPBasket
 
 extension View {
     public func space(_ width: CGFloat? = nil, _ color: Color = Color.blue) -> some View {
@@ -29,6 +30,14 @@ struct ContentView: View {
                 msg = TKCPSpeaker.intro()
             }){
                 Text("Say!").space(300)
+            }
+        }
+        HStack {
+            Button(action: {
+                msg = TKCPBasket.introLibStatic();
+            }){
+                Text("Lib!Static!").space(100)
+            }
             }
         }
     }
