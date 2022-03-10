@@ -4,19 +4,20 @@ PODS:
     - TKCPHuman
 
 DEPENDENCIES:
-  - TKCPHuman (from `../TKCPHuman`)
-  - TKCPSpeaker (from `../TKCPSpeaker`)
+  - TKCPSpeaker (from `../TKCPSpeaker/`)
+
+SPEC REPOS:
+  https://github.com/TKCocoapods/tkcp-spec:
+    - TKCPHuman
 
 EXTERNAL SOURCES:
-  TKCPHuman:
-    :path: "../TKCPHuman"
   TKCPSpeaker:
-    :path: "../TKCPSpeaker"
+    :path: "../TKCPSpeaker/"
 
 SPEC CHECKSUMS:
-  TKCPHuman: aeccc2b370cec1e3ed26556e6a6b7c210fa20803
+  TKCPHuman: e297510851a5dc4bdd79140662abdf292022e88a
   TKCPSpeaker: 9d75e2dff982d280bb1a3b95e1213db459912386
 
-PODFILE CHECKSUM: 6da2f59e23cb4363d1ea87baad71adedd8dcb13f
+PODFILE CHECKSUM: 69866a2b9c740edd2215515c2dc9da806b193b19
 
 COCOAPODS: 1.11.2
