@@ -1,0 +1,23 @@
+PODS:
+  - TKCPHuman (0.1.0)
+  - TKCPSpeaker (0.1.0):
+    - TKCPHuman
+
+DEPENDENCIES:
+  - TKCPSpeaker (from `../`)
+
+SPEC REPOS:
+  https://github.com/TKCocoapods/tkcp-spec:
+    - TKCPHuman
+
+EXTERNAL SOURCES:
+  TKCPSpeaker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKCPHuman: e297510851a5dc4bdd79140662abdf292022e88a
+  TKCPSpeaker: 9d75e2dff982d280bb1a3b95e1213db459912386
+
+PODFILE CHECKSUM: 02c23b253d8e06a31dd4b90ddc3b65a24f599363
+
+COCOAPODS: 1.11.2
