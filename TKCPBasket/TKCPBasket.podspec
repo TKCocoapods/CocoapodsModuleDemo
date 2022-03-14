@@ -30,13 +30,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = [
-    'TKCPBasket/Classes/**/*',
-    'TKCPBasket/Libraries/**/*.h'
-  ]
-  s.vendored_libraries = 'TKCPBasket/Libraries/**/*.a'
-  s.vendored_frameworks = 'TKCPBasket/Frameworks/*.framework'
-  
+  s.subspec 'Core' do |c|
+    c.source_files = [
+      'TKCPBasket/Classes/Core/**/*',
+    ]
+  end
+  s.subspec 'LibStatic' do |libs|
+    libs.source_files = [
+      'TKCPBasket/Classes/LibStatic/**/*',
+      'TKCPBasket/Libraries/BasketLibStatic/*.h'
+    ]
+    libs.vendored_libraries = 'TKCPBasket/Libraries/BasketLibStatic/*.a'
+  end
+  s.subspec 'FxStatic' do |fxs|
+    fxs.source_files = [
+      'TKCPBasket/Classes/FxStatic/**/*',
+    ]
+    fxs.vendored_frameworks = 'TKCPBasket/Frameworks/BasketFxStatic.framework'
+  end
+
   # s.resource_bundles = {
   #   'TKCPBasket' => ['TKCPBasket/Assets/*.png']
   # }

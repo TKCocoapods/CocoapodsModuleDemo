@@ -1,5 +1,11 @@
 PODS:
-  - TKCPBasket (0.1.0)
+  - TKCPBasket (0.1.0):
+    - TKCPBasket/Core (= 0.1.0)
+    - TKCPBasket/FxStatic (= 0.1.0)
+    - TKCPBasket/LibStatic (= 0.1.0)
+  - TKCPBasket/Core (0.1.0)
+  - TKCPBasket/FxStatic (0.1.0)
+  - TKCPBasket/LibStatic (0.1.0)
   - TKCPHuman (0.1.0)
   - TKCPSpeaker (0.1.0):
     - TKCPHuman
@@ -19,7 +25,7 @@ EXTERNAL SOURCES:
     :path: "../TKCPSpeaker/"
 
 SPEC CHECKSUMS:
-  TKCPBasket: 0f5bab7a4d0122dd7175be6e5492494fee758609
+  TKCPBasket: 2db48d5901c6f3420b19d8506aadc91d24068d44
   TKCPHuman: e297510851a5dc4bdd79140662abdf292022e88a
   TKCPSpeaker: 9d75e2dff982d280bb1a3b95e1213db459912386
 

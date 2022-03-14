@@ -11,10 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TKCPBasket : NSObject
 
-+ (NSString *)introLibStatic;
-
-+ (NSString *)introFxStatic;
-
 @end
 
 NS_ASSUME_NONNULL_END

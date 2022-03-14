@@ -34,12 +34,12 @@ struct ContentView: View {
         }
         HStack {
             Button(action: {
-                msg = TKCPBasket.introLibStatic();
+                msg = LibStatic.intro()
             }){
                 Text("Lib!Static!").space(100)
             }
             Button(action: {
-                msg = TKCPBasket.introFxStatic();
+                msg = FxStatic.intro()
             }){
                 Text("Fx!Static").space(100)
             }
