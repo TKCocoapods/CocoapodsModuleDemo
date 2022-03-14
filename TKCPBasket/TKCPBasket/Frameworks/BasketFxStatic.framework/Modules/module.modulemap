@@ -1,0 +1,6 @@
+framework module BasketFxStatic {
+  umbrella header "BasketFxStatic.h"
+
+  export *
+  module * { export * }
+}

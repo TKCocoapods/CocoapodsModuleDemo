@@ -38,6 +38,10 @@ struct ContentView: View {
             }){
                 Text("Lib!Static!").space(100)
             }
+            Button(action: {
+                msg = TKCPBasket.introFxStatic();
+            }){
+                Text("Fx!Static").space(100)
             }
         }
     }

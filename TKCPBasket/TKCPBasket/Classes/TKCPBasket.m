@@ -7,11 +7,16 @@
 
 #import "TKCPBasket.h"
 #import "BasketLibStatic.h"
+#import <BasketFxStatic/BasketFxStatic.h>
 
 @implementation TKCPBasket
 
 + (NSString *)introLibStatic {
     return [BasketLibStatic intro];
+}
+
++ (NSString *)introFxStatic {
+    return [BasketFxStatic intro];
 }
 
 @end

@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)introLibStatic;
 
++ (NSString *)introFxStatic;
+
 @end
 
 NS_ASSUME_NONNULL_END

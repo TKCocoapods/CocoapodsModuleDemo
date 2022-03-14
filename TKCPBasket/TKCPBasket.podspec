@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
     'TKCPBasket/Libraries/**/*.h'
   ]
   s.vendored_libraries = 'TKCPBasket/Libraries/**/*.a'
+  s.vendored_frameworks = 'TKCPBasket/Frameworks/*.framework'
   
   # s.resource_bundles = {
   #   'TKCPBasket' => ['TKCPBasket/Assets/*.png']
