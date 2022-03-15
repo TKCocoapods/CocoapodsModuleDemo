@@ -36,12 +36,12 @@ struct ContentView: View {
             Button(action: {
                 msg = LibStatic.intro()
             }){
-                Text("Lib!Static!").space(100)
+                Text("Lib!Static!").space(150)
             }
             Button(action: {
                 msg = FxStatic.intro()
             }){
-                Text("Fx!Static").space(100)
+                Text("Fx!Static").space(150)
             }
         }
     }
