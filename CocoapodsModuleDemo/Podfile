@@ -4,8 +4,7 @@ source "git@github.com:TKCocoapods/tkcp-spec.git"
 
 target 'CocoapodsModuleDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
-  # use_frameworks!
-  use_modular_headers!
+  use_frameworks!
 
   # Pods for CocoapodsModuleDemo
   pod 'TKCPSpeaker', :path => '../TKCPSpeaker/'
