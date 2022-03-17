@@ -39,5 +39,5 @@ TKCPDog is a template of Cocoapods Module Demo, it will be simple.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'TKCPAnimal'
+  s.dependency 'TKCPAnimal'
 end

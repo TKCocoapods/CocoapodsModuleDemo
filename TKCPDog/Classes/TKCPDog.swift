@@ -1,8 +1,8 @@
 import UIKit
-import TKAnimal
+import TKCPAnimal
 
 public class TKCPDog: NSObject {
     public static func intro() -> String {
-        return "Dog"
+        return TKCPAnimal.intro() + " : " + "Dog"
     }
 }
