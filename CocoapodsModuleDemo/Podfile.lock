@@ -1,4 +1,5 @@
 PODS:
+  - TKCPAnimal (0.1.1)
   - TKCPBasket (0.1.0):
     - TKCPBasket/Core (= 0.1.0)
     - TKCPBasket/FxStatic (= 0.1.0)
@@ -6,29 +7,37 @@ PODS:
   - TKCPBasket/Core (0.1.0)
   - TKCPBasket/FxStatic (0.1.0)
   - TKCPBasket/LibStatic (0.1.0)
+  - TKCPDog (0.1.0)
   - TKCPHuman (0.1.0)
   - TKCPSpeaker (0.1.0):
     - TKCPHuman
 
 DEPENDENCIES:
+  - TKCPAnimal
   - TKCPBasket (from `../TKCPBasket/`)
+  - TKCPDog (from `../TKCPDog/`)
   - TKCPSpeaker (from `../TKCPSpeaker/`)
 
 SPEC REPOS:
-  https://github.com/TKCocoapods/tkcp-spec:
+  "git@github.com:TKCocoapods/tkcp-spec.git":
+    - TKCPAnimal
     - TKCPHuman
 
 EXTERNAL SOURCES:
   TKCPBasket:
     :path: "../TKCPBasket/"
+  TKCPDog:
+    :path: "../TKCPDog/"
   TKCPSpeaker:
     :path: "../TKCPSpeaker/"
 
 SPEC CHECKSUMS:
+  TKCPAnimal: 814968c2034805c1d85530e3cf8fff2a9b1f4e6f
   TKCPBasket: 2db48d5901c6f3420b19d8506aadc91d24068d44
+  TKCPDog: 722359cc4a8df5d2aeea60b694c5e05080120bcc
   TKCPHuman: e297510851a5dc4bdd79140662abdf292022e88a
   TKCPSpeaker: 9d75e2dff982d280bb1a3b95e1213db459912386
 
-PODFILE CHECKSUM: 57679700c21fb8c9504ebaf45047b78e27836c7a
+PODFILE CHECKSUM: eb30f3ba9bd285414ed1ab697499ba561d3a4304
 
 COCOAPODS: 1.11.2
